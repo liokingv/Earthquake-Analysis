@@ -6,4 +6,4 @@ The United States Geological Survey (USGS) Earthquake Hazards program offers ear
 
 The questions of interest explored the relationships between earthquake magnitude and location, magnitude/depth/intensity, and patterns of frequency. 
 
-There are three files in the repository. Two files are python code and correspond to the data wrangling and the data visualization aspect. The third file is a report of my findings in the ONSEMN report format. Please note that the data used for the report will be different from the one you will collect should you run my code. The USGS API specifically provides the most recent 30-day data. 
+There are three files in the repository. Two files are python code and correspond to the data wrangling and the data visualization aspect. The third file is a report of my findings in the OSEMN report format. Please note that the data used for the report will be different from the one you will collect should you run my code. The USGS API specifically provides the most recent 30-day data. 
