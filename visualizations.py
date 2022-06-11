@@ -9,10 +9,6 @@ import statsmodels.api as sm
 
 
 # Question 1 visualization (map)
-# I did a step by step tutorial from these pages:
-# https://towardsdatascience.com/data-visualization-with-python-folium-maps-a74231de9ef7
-# https://levelup.gitconnected.com/plotting-usgs-earthquake-data-with-folium-8f11ddc21950
-
 # Load the cleaned up dataframe
 earthquake_df = pd.read_csv ('final_df.csv')
 #earthquake_df.info()
@@ -64,7 +60,6 @@ world_map.save('earthquakes.html')
 
 # Question 2 visualization of the multilinear regression model
 # Prepare the dataframe with only the variables that'll be used
-# https://stackoverflow.com/questions/29314033/drop-rows-containing-empty-cells-from-a-pandas-dataframe
 multi_df = earthquake_df[['Magnitude', 'Intensity', 'Depth']]
 multi_df['Intensity'].replace('', np.nan, inplace = True)
 multi_df = multi_df.dropna(subset=['Intensity'])
